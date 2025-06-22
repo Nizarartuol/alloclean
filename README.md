@@ -84,4 +84,13 @@ theme: {
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. 
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## Déploiement sur Vercel
+
+1. Connectez votre dépôt GitHub à Vercel.
+2. Lors de la configuration du projet, choisissez :
+   - **Framework Preset** : Vite
+   - **Build Command** : npm run vercel-build
+   - **Output Directory** : dist
+3. Déployez ! 
