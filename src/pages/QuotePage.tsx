@@ -55,9 +55,9 @@ export default function QuotePage() {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#5DBCD2] to-[#A8D5BA] py-20">
-        <div className="container-custom text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Demander un devis</h1>
+      <section className="bg-gradient-to-r from-[#1239ac] to-[#A8D5BA] py-20">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-center text-white mb-6">Demande de Devis</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Remplissez le formulaire ci-dessous pour recevoir un devis personnalisé
           </p>
@@ -69,79 +69,69 @@ export default function QuotePage() {
         <div className="container-custom max-w-3xl">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                  Nom complet *
-                </label>
+              <div className="mb-4">
+                <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Nom complet</label>
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
                 />
               </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                  Email *
-                </label>
+              <div className="mb-4">
+                <label htmlFor="email" className="block text-gray-700 font-bold mb-2">Email</label>
                 <input
                   type="email"
                   id="email"
                   name="email"
-                  required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
                 />
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                  Téléphone *
-                </label>
+              <div className="mb-4">
+                <label htmlFor="phone" className="block text-gray-700 font-bold mb-2">Téléphone</label>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
-                  required
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
                 />
               </div>
-              <div>
-                <label htmlFor="address" className="block text-sm font-medium text-gray-700 mb-1">
-                  Adresse *
-                </label>
+              <div className="mb-4">
+                <label htmlFor="address" className="block text-gray-700 font-bold mb-2">Adresse</label>
                 <input
                   type="text"
                   id="address"
                   name="address"
-                  required
                   value={formData.address}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
                 />
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
-                  Service souhaité *
-                </label>
+              <div className="mb-4">
+                <label htmlFor="service" className="block text-gray-700 font-bold mb-2">Type de service</label>
                 <select
                   id="service"
                   name="service"
-                  required
                   value={formData.service}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
                 >
                   <option value="">Sélectionnez un service</option>
                   {services.map((service) => (
@@ -149,19 +139,18 @@ export default function QuotePage() {
                       {service}
                     </option>
                   ))}
+                  <option value="vitres">Nettoyage de vitres</option>
                 </select>
               </div>
               <div>
-                <label htmlFor="frequency" className="block text-sm font-medium text-gray-700 mb-1">
-                  Fréquence souhaitée *
-                </label>
+                <label htmlFor="frequency" className="block text-gray-700 font-bold mb-2">Fréquence souhaitée</label>
                 <select
                   id="frequency"
                   name="frequency"
-                  required
                   value={formData.frequency}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
                 >
                   <option value="">Sélectionnez une fréquence</option>
                   {frequencies.map((frequency) => (
@@ -173,33 +162,43 @@ export default function QuotePage() {
               </div>
             </div>
 
-            <div>
-              <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1">
-                Date souhaitée *
-              </label>
-              <input
-                type="date"
-                id="date"
-                name="date"
-                required
-                value={formData.date}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
-              />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="mb-4">
+                <label htmlFor="surface" className="block text-gray-700 font-bold mb-2">Surface (en m²)</label>
+                <input
+                  type="number"
+                  id="surface"
+                  name="surface"
+                  value={formData.surface}
+                  onChange={handleChange}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="date" className="block text-gray-700 font-bold mb-2">Date souhaitée</label>
+                <input
+                  type="date"
+                  id="date"
+                  name="date"
+                  value={formData.date}
+                  onChange={handleChange}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+                  required
+                />
+              </div>
             </div>
 
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                Message (facultatif)
-              </label>
+            <div className="mb-4">
+              <label htmlFor="comments" className="block text-gray-700 font-bold mb-2">Commentaires</label>
               <textarea
-                id="message"
-                name="message"
-                rows={4}
-                value={formData.message}
+                id="comments"
+                name="comments"
+                value={formData.comments}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
-              />
+                rows={4}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
+              ></textarea>
             </div>
 
             <div>

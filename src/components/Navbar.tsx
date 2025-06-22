@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -17,7 +18,7 @@ export default function Navbar() {
     <header className="fixed w-full bg-white shadow-sm z-50">
       <nav className="container-custom flex items-center justify-between h-16">
         <div className="flex items-center">
-          <Link to="/" className="text-2xl font-bold text-[#5DBCD2]">
+          <Link to="/" className="text-2xl font-bold text-[#1239ac]">
             Alloclean
           </Link>
         </div>
@@ -28,7 +29,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.href}
-              className="text-gray-600 hover:text-[#5DBCD2] transition-colors duration-300"
+              className="text-gray-600 hover:text-[#1239ac] transition-colors duration-300"
             >
               {item.name}
             </Link>
@@ -65,7 +66,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 to={item.href}
-                className="block px-3 py-2 text-gray-600 hover:text-[#5DBCD2] transition-colors duration-300"
+                className="block px-3 py-2 text-gray-600 hover:text-[#1239ac] transition-colors duration-300"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}

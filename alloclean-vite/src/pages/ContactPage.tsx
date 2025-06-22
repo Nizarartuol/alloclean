@@ -60,7 +60,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#5DBCD2] to-[#A8D5BA] py-20">
+      <section className="bg-gradient-to-r from-[#1239ac] to-[#A8D5BA] py-20">
         <div className="container-custom text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contactez-nous</h1>
           <p className="text-xl max-w-3xl mx-auto">
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 key={info.title}
                 className="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow duration-300"
               >
-                <info.icon className="h-8 w-8 text-[#5DBCD2] mx-auto mb-4" />
+                <info.icon className="h-8 w-8 text-[#1239ac] mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2 text-gray-800">
                   {info.title}
                 </h3>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
                   />
                 </div>
                 <div>
@@ -123,7 +123,7 @@ export default function ContactPage() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
                   />
                 </div>
               </div>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                   required
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
                 />
               </div>
 
@@ -154,7 +154,7 @@ export default function ContactPage() {
                   required
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#5DBCD2] focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1239ac] focus:border-transparent"
                 />
               </div>
 

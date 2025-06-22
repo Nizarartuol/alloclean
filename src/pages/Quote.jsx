@@ -36,7 +36,7 @@ function Quote() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#5DBCD2] focus:ring-[#5DBCD2]"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#1239ac] focus:ring-[#1239ac]"
               required
             />
           </div>
@@ -49,7 +49,7 @@ function Quote() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#5DBCD2] focus:ring-[#5DBCD2]"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#1239ac] focus:ring-[#1239ac]"
               required
             />
           </div>
@@ -62,7 +62,7 @@ function Quote() {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#5DBCD2] focus:ring-[#5DBCD2]"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#1239ac] focus:ring-[#1239ac]"
               required
             />
           </div>
@@ -74,7 +74,7 @@ function Quote() {
               name="service"
               value={formData.service}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#5DBCD2] focus:ring-[#5DBCD2]"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#1239ac] focus:ring-[#1239ac]"
               required
             >
               <option value="">Sélectionnez un service</option>
@@ -93,14 +93,14 @@ function Quote() {
               value={formData.message}
               onChange={handleChange}
               rows="4"
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#5DBCD2] focus:ring-[#5DBCD2]"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#1239ac] focus:ring-[#1239ac]"
               required
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="w-full bg-[#5DBCD2] text-white py-2 px-4 rounded-md hover:bg-[#4CA8BC] transition-colors duration-300"
+            className="w-full bg-[#1239ac] text-white py-2 px-4 rounded-md hover:bg-[#4CA8BC] transition-colors duration-300"
           >
             Envoyer la demande
           </button>

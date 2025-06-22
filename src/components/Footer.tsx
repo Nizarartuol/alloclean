@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold text-[#5DBCD2] mb-4">Alloclean</h3>
+            <h3 className="text-lg font-semibold text-[#1239ac] mb-4">Alloclean</h3>
             <p className="text-gray-600 mb-4">
               Votre partenaire de confiance pour tous vos besoins en nettoyage à domicile.
             </p>
@@ -55,7 +55,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-400 hover:text-[#5DBCD2]"
+                  className="text-gray-400 hover:text-[#1239ac]"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -66,13 +66,13 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-[#5DBCD2] mb-4">Liens rapides</h3>
+            <h3 className="text-lg font-semibold text-[#1239ac] mb-4">Liens rapides</h3>
             <ul className="space-y-2">
               {navigation.main.map((item) => (
                 <li key={item.name}>
                   <Link
                     to={item.href}
-                    className="text-gray-600 hover:text-[#5DBCD2] transition-colors duration-300"
+                    className="text-gray-600 hover:text-[#1239ac] transition-colors duration-300"
                   >
                     {item.name}
                   </Link>
@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold text-[#5DBCD2] mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold text-[#1239ac] mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-600">
               <li>📞 +33 1 23 45 67 89</li>
               <li>✉️ contact@alloclean.fr</li>

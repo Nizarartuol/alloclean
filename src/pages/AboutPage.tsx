@@ -1,3 +1,4 @@
+import React from 'react';
 import { UsersIcon, ShieldCheckIcon, SparklesIcon } from '@heroicons/react/24/outline';
 
 const stats = [
@@ -28,7 +29,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#5DBCD2] to-[#A8D5BA] py-20">
+      <section className="bg-gradient-to-r from-[#1239ac] to-[#A8D5BA] py-20">
         <div className="container-custom text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">À propos d'Alloclean</h1>
           <p className="text-xl max-w-3xl mx-auto">
@@ -46,7 +47,7 @@ export default function AboutPage() {
                 key={stat.id}
                 className="text-center p-6 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow duration-300"
               >
-                <div className="text-4xl font-bold text-[#5DBCD2] mb-2">{stat.value}</div>
+                <div className="text-4xl font-bold text-[#1239ac] mb-2">{stat.value}</div>
                 <div className="text-gray-600">{stat.name}</div>
               </div>
             ))}
@@ -86,7 +87,7 @@ export default function AboutPage() {
                 key={value.title}
                 className="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-shadow duration-300"
               >
-                <value.icon className="h-12 w-12 text-[#5DBCD2] mb-4" />
+                <value.icon className="h-12 w-12 text-[#1239ac] mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">
                   {value.title}
                 </h3>

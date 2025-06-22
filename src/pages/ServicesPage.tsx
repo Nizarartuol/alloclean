@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   HomeIcon,
@@ -44,7 +45,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#5DBCD2] to-[#A8D5BA] py-20">
+      <section className="bg-gradient-to-r from-[#1239ac] to-[#A8D5BA] py-20">
         <div className="container-custom text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Nos Services</h1>
           <p className="text-xl max-w-3xl mx-auto">
@@ -65,7 +66,7 @@ export default function ServicesPage() {
                 <div className="h-48 bg-gray-200">
                   {/* Placeholder pour l'image */}
                   <div className="w-full h-full flex items-center justify-center bg-gray-100">
-                    <service.icon className="h-16 w-16 text-[#5DBCD2]" />
+                    <service.icon className="h-16 w-16 text-[#1239ac]" />
                   </div>
                 </div>
                 <div className="p-6">

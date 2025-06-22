@@ -37,7 +37,7 @@ function ProcessSection() {
             <div key={index} className="relative">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="text-4xl mb-4">{step.icon}</div>
-                <div className="text-2xl font-bold text-[#5DBCD2] mb-2">{step.number}</div>
+                <div className="text-2xl font-bold text-[#1239ac] mb-2">{step.number}</div>
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
               </div>

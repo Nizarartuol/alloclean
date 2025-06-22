@@ -10,7 +10,7 @@ function InfoSection() {
             
             <div className="space-y-8">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-[#5DBCD2] mb-4">Une Approche Professionnelle</h3>
+                <h3 className="text-xl font-semibold text-[#1239ac] mb-4">Une Approche Professionnelle</h3>
                 <p className="text-gray-600 mb-4">
                   Chez AlloClean, nous croyons que le nettoyage est bien plus qu'une simple tâche - c'est un art qui nécessite expertise, attention aux détails et passion. Notre équipe est composée de professionnels qualifiés qui suivent régulièrement des formations pour rester à la pointe des meilleures pratiques du secteur.
                 </p>
@@ -20,7 +20,7 @@ function InfoSection() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-[#5DBCD2] mb-4">Notre Engagement Écologique</h3>
+                <h3 className="text-xl font-semibold text-[#1239ac] mb-4">Notre Engagement Écologique</h3>
                 <p className="text-gray-600 mb-4">
                   La protection de l'environnement est au cœur de nos préoccupations. C'est pourquoi nous utilisons exclusivement des produits de nettoyage écologiques, certifiés et respectueux de l'environnement. Nos solutions sont non toxiques, biodégradables et sans danger pour les enfants et les animaux domestiques.
                 </p>
@@ -30,7 +30,7 @@ function InfoSection() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-[#5DBCD2] mb-4">Une Satisfaction Garantie</h3>
+                <h3 className="text-xl font-semibold text-[#1239ac] mb-4">Une Satisfaction Garantie</h3>
                 <p className="text-gray-600 mb-4">
                   Votre satisfaction est notre priorité absolue. Nous nous engageons à fournir un service de qualité exceptionnelle à chaque intervention. Si vous n'êtes pas entièrement satisfait, nous reviendrons gratuitement pour corriger tout problème.
                 </p>
@@ -40,7 +40,7 @@ function InfoSection() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-[#5DBCD2] mb-4">Des Solutions Adaptées</h3>
+                <h3 className="text-xl font-semibold text-[#1239ac] mb-4">Des Solutions Adaptées</h3>
                 <p className="text-gray-600 mb-4">
                   Nous comprenons que chaque espace est unique et nécessite une approche personnalisée. C'est pourquoi nous proposons des solutions sur mesure, adaptées à vos besoins spécifiques et à vos contraintes particulières.
                 </p>

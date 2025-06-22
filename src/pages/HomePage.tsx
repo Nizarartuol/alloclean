@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 
@@ -41,7 +42,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-[#5DBCD2] to-[#A8D5BA]">
+      <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-[#1239ac] to-[#A8D5BA]">
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="container-custom relative z-10 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -51,7 +52,7 @@ export default function HomePage() {
             Des solutions de nettoyage professionnelles pour votre maison et votre entreprise
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/services" className="btn-primary bg-white text-[#5DBCD2] hover:bg-gray-100">
+            <Link to="/services" className="btn-primary bg-white text-[#1239ac] hover:bg-gray-100">
               Voir nos services
             </Link>
             <Link to="/quote" className="btn-primary bg-[#A8D5BA] text-white hover:bg-[#97C4A9]">
@@ -73,7 +74,7 @@ export default function HomePage() {
                 key={advantage.title}
                 className="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-shadow duration-300"
               >
-                <advantage.icon className="h-12 w-12 text-[#5DBCD2] mb-4" />
+                <advantage.icon className="h-12 w-12 text-[#1239ac] mb-4" />
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">
                   {advantage.title}
                 </h3>
@@ -97,7 +98,7 @@ export default function HomePage() {
                 className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               >
                 <p className="text-gray-600 mb-4 italic">"{testimonial.content}"</p>
-                <div className="font-semibold text-[#5DBCD2]">{testimonial.author}</div>
+                <div className="font-semibold text-[#1239ac]">{testimonial.author}</div>
                 <div className="text-sm text-gray-500">{testimonial.role}</div>
               </div>
             ))}

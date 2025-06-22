@@ -35,7 +35,7 @@ function BenefitsSection() {
               <div className="flex items-start">
                 <div className="text-4xl mr-4">{benefit.icon}</div>
                 <div>
-                  <h3 className="text-xl font-semibold text-[#5DBCD2] mb-3">{benefit.title}</h3>
+                  <h3 className="text-xl font-semibold text-[#1239ac] mb-3">{benefit.title}</h3>
                   <p className="text-gray-600">{benefit.description}</p>
                 </div>
               </div>
@@ -44,7 +44,7 @@ function BenefitsSection() {
         </div>
 
         <div className="mt-12 bg-white p-8 rounded-lg shadow-md">
-          <h3 className="text-2xl font-semibold text-center text-[#5DBCD2] mb-6">
+          <h3 className="text-2xl font-semibold text-center text-[#1239ac] mb-6">
             Pourquoi Choisir AlloClean ?
           </h3>
           <div className="prose max-w-none">

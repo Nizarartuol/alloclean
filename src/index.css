@@ -14,7 +14,7 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-[#5DBCD2] text-white px-6 py-2 rounded-lg hover:bg-[#4CA8BC] transition-colors duration-300;
+    @apply bg-[#1239ac] text-white px-6 py-2 rounded-lg hover:bg-[#4CA8BC] transition-colors duration-300;
   }
   
   .btn-secondary {

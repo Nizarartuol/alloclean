@@ -31,7 +31,7 @@ function StatsSection() {
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-4xl mb-2">{stat.icon}</div>
-              <div className="text-4xl font-bold text-[#5DBCD2] mb-2">{stat.number}</div>
+              <div className="text-4xl font-bold text-[#1239ac] mb-2">{stat.number}</div>
               <div className="text-gray-600">{stat.label}</div>
             </div>
           ))}
