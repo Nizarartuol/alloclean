@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    @apply bg-white text-gray-800;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#5DBCD2] text-white px-6 py-2 rounded-lg hover:bg-[#4CA8BC] transition-colors duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#A8D5BA] text-white px-6 py-2 rounded-lg hover:bg-[#97C4A9] transition-colors duration-300;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+} 
